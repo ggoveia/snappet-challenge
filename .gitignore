@@ -9,7 +9,7 @@ wwwroot/styles/**
 wwwroot/dist/main-client.*
 ClientApp/dist/main-server.*
 
-node_modules/**
+**/node_modules/**
 [Ss]cripts/[Aa]pp/*.js
 [Ss]cripts/[Aa]pp_old/*.js
 
@@ -17,6 +17,7 @@ node_modules/**
 
 .tscache/**
 .vs/
+.vscode/**
 
 *.mwb.bak	# MySQL Workbench .BAK file
 *.dbmdl		# VS2010 Database Projects cache file
