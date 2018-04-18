@@ -1,0 +1,11 @@
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\bin\Debug\netcoreapp2.0\SnappetChallengeTests.deps.json
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\bin\Debug\netcoreapp2.0\SnappetChallengeTests.runtimeconfig.json
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\bin\Debug\netcoreapp2.0\SnappetChallengeTests.runtimeconfig.dev.json
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\bin\Debug\netcoreapp2.0\SnappetChallengeTests.dll
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\obj\Debug\netcoreapp2.0\SnappetChallengeTests.csprojResolveAssemblyReference.cache
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\obj\Debug\netcoreapp2.0\SnappetChallengeTests.csproj.CoreCompileInputs.cache
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\obj\Debug\netcoreapp2.0\SnappetChallengeTests.AssemblyInfoInputs.cache
+C:\Users\giuliane.goveia\projects\snappet-challenge\snappet-challenge\api\tests\obj\Debug\netcoreapp2.0\SnappetChallengeTests.AssemblyInfo.cs
