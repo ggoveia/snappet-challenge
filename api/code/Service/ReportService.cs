@@ -15,13 +15,23 @@ namespace SnappetChallenge.Service
             _exerciseRepository = exerciseRepository;
         }
 
-        public IEnumerable<ExerciseBySubject> GetExercisesBySubject(DateTime startDate, DateTime endDate)
+        public IEnumerable<ExerciseByInfo> GetExercisesBySubject(DateTime startDate, DateTime endDate)
         {
             var allExercises = _exerciseRepository.Get(startDate, endDate);
 
             return allExercises.GroupBy(c => c.Subject)
-                    .Select(v => new ExerciseBySubject(v.Count(), v.First().Subject));
+                    .Select(v => new ExerciseByInfo(v.Count(), v.First().Subject));
         }
-        
+
+        public IEnumerable<ExerciseByInfo> GetExercisesByDomain(DateTime startDate, DateTime endDate)
+        {
+            var allExercises = _exerciseRepository.Get(startDate, endDate);
+
+            return allExercises.GroupBy(c => c.Domain)
+                    .Select(v => new ExerciseByInfo(v.Count(), v.First().Domain));
+        }
+
+
+
     }
 }

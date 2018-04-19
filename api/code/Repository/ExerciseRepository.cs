@@ -1,4 +1,5 @@
 using SnappetChallenge.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -13,9 +14,9 @@ namespace SnappetChallenge.Repository
             _cachedExerciseData = CachedData.Data;
         }
 
-        public IEnumerable<Exercise> Get()
+        public IEnumerable<Exercise> Get(DateTime startDate, DateTime endDate)
         {
-            return _cachedExerciseData;
+            return _cachedExerciseData.Where(c => c.SubmitDateTime > startDate && c.SubmitDateTime < endDate);
         }
     }
 }

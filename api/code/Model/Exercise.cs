@@ -14,6 +14,8 @@ namespace SnappetChallenge.Model
         public string Subject { get; set; }
         public string Domain { get; set; }
         public string LearningObjective { get; set; }
+
+
     }
 
 }

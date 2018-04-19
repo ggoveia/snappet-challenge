@@ -1,14 +1,14 @@
 namespace SnappetChallenge.Model
 {
-    public class ExerciseBySubject
+    public class ExerciseByInfo
     {
         public int Quantity { get; }
-        public string Subject { get; }
+        public string Info { get; }
 
-        public ExerciseBySubject(int quantity, string subject)
+        public ExerciseByInfo(int quantity, string info)
         {
             Quantity = quantity;
-            Subject = subject;
+            Info = info;
         }
     }
 }

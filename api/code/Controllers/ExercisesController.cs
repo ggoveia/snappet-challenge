@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SnappetChallenge.Repository;
+using System;
 
 namespace SnappetChallenge.Controllers
 {
@@ -19,7 +20,7 @@ namespace SnappetChallenge.Controllers
         [HttpGet]
         public string Get()
         {
-            return  JsonConvert.SerializeObject(_exerciseRepository.Get());
+            return  JsonConvert.SerializeObject(_exerciseRepository.Get(DateTime.Now, DateTime.Now));
         }
 
     }
